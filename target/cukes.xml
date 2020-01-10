@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="41.960709">
+<testcase classname="GUMTREE GOOGLE Search" name="Validate the GUMTREE links in Google Search" time="30.237504">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.test.stepdefinition.SDsGoogleSearch.verify_that_the_title_is_getting_is_displayed(SDsGoogleSearch.java:124)&#13;&#10;&#9;at ✽.verify that the title is getting is displayed(src/test/resources/FeatureFiles/GoogleSearch.feature:13)&#13;&#10;"><![CDATA[Given Validate the Application..............................................passed
+Given Initialize the chrome browser.........................................passed
+And Navigate to https://google.com Site.....................................passed
+When Google.com is launched send the literal Cars in London in Google text box and Enter the search button.passed
+Then Verify the links with the Literal GUM TREE and confirm the number of links displayed is more than one.passed
+And verify that the title is getting is displayed...........................failed
+Then Close Browsers.........................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.test.stepdefinition.SDsGoogleSearch.verify_that_the_title_is_getting_is_displayed(SDsGoogleSearch.java:124)
+	at ✽.verify that the title is getting is displayed(src/test/resources/FeatureFiles/GoogleSearch.feature:13)
+]]></failure>
+</testcase>
+<testcase classname="GUMTREE GOOGLE Search" name="Validate the GUMTREE links in Google Search 2" time="11.723205">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.test.stepdefinition.SDsGoogleSearch.verify_that_the_title_is_getting_is_displayed(SDsGoogleSearch.java:124)&#13;&#10;&#9;at ✽.verify that the title is getting is displayed(src/test/resources/FeatureFiles/GoogleSearch.feature:13)&#13;&#10;"><![CDATA[Given Validate the Application..............................................passed
+Given Initialize the chrome-headless browser................................passed
+And Navigate to https://google.com Site.....................................passed
+When Google.com is launched send the literal Cars in London in Google text box and Enter the search button.passed
+Then Verify the links with the Literal GUM TREE and confirm the number of links displayed is more than one.passed
+And verify that the title is getting is displayed...........................failed
+Then Close Browsers.........................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.test.stepdefinition.SDsGoogleSearch.verify_that_the_title_is_getting_is_displayed(SDsGoogleSearch.java:124)
+	at ✽.verify that the title is getting is displayed(src/test/resources/FeatureFiles/GoogleSearch.feature:13)
+]]></failure>
+</testcase>
+</testsuite>

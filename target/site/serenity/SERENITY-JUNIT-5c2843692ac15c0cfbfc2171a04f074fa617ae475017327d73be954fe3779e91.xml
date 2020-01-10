@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="GUMTREE GOOGLE Search" skipped="0" tests="2" time="58.13" timestamp="2019-12-31T16:21:40.175Z[Europe/London]"><testcase name="Validate the GUMTREE links in Google Search"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.test.stepdefinition.SDsGoogleSearch.verify_that_the_title_is_getting_is_displayed(SDsGoogleSearch.java:124)&#13;
+✽.verify that the title is getting is displayed(src/test/resources/FeatureFiles/GoogleSearch.feature:13)&#13;
+</system-err></testcase></testsuite>

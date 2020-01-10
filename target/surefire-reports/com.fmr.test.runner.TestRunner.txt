@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.fmr.test.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 45.233 s - in com.fmr.test.runner.TestRunner

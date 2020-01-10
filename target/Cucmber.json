@@ -1,0 +1,321 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2341776508,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Validate the Application",
+            "match": {
+              "location": "SDsGoogleSearch.validate_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 100759394,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeValidation()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Validate the GUMTREE links in Google Search",
+        "description": "",
+        "id": "gumtree-google-search;validate-the-gumtree-links-in-google-search;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 137645,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterValidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11715436454,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Initialize the chrome browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 15
+                }
+              ],
+              "location": "SDsGoogleSearch.initialize_the_browser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3403386816,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Navigate to https://google.com Site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://google.com",
+                  "offset": 12
+                }
+              ],
+              "location": "SDsGoogleSearch.navigate_to_site(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4090919117,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Google.com is launched send the literal Cars in London in Google text box and Enter the search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cars in London",
+                  "offset": 40
+                }
+              ],
+              "location": "SDsGoogleSearch.googlecom_is_launched_send_the_literal_in_google_text_box_and_enter_the_search_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 133235728,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify the links with the Literal GUM TREE and confirm the number of links displayed is more than one",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GUM TREE",
+                  "offset": 34
+                }
+              ],
+              "location": "SDsGoogleSearch.verify_the_links_with_the_literal_and_confirm_the_number_of_links_displayed_is_more_than_one(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.test.stepdefinition.SDsGoogleSearch.verify_that_the_title_is_getting_is_displayed(SDsGoogleSearch.java:124)\r\n\tat ✽.verify that the title is getting is displayed(src/test/resources/FeatureFiles/GoogleSearch.feature:13)\r\n",
+              "duration": 7602833247,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "verify that the title is getting is displayed",
+            "match": {
+              "location": "SDsGoogleSearch.verify_that_the_title_is_getting_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Close Browsers",
+            "match": {
+              "location": "SDsGoogleSearch.close_browsers()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functional"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5099247,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Validate the Application",
+            "match": {
+              "location": "SDsGoogleSearch.validate_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2987990,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeValidation()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Validate the GUMTREE links in Google Search",
+        "description": "",
+        "id": "gumtree-google-search;validate-the-gumtree-links-in-google-search;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 117126,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterValidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4298471166,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Initialize the chrome-headless browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome-headless",
+                  "offset": 15
+                }
+              ],
+              "location": "SDsGoogleSearch.initialize_the_browser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3703640945,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Navigate to https://google.com Site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://google.com",
+                  "offset": 12
+                }
+              ],
+              "location": "SDsGoogleSearch.navigate_to_site(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2326537330,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Google.com is launched send the literal Cars in London in Google text box and Enter the search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cars in London",
+                  "offset": 40
+                }
+              ],
+              "location": "SDsGoogleSearch.googlecom_is_launched_send_the_literal_in_google_text_box_and_enter_the_search_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48843169,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify the links with the Literal GUM TREE and confirm the number of links displayed is more than one",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GUM TREE",
+                  "offset": 34
+                }
+              ],
+              "location": "SDsGoogleSearch.verify_the_links_with_the_literal_and_confirm_the_number_of_links_displayed_is_more_than_one(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.test.stepdefinition.SDsGoogleSearch.verify_that_the_title_is_getting_is_displayed(SDsGoogleSearch.java:124)\r\n\tat ✽.verify that the title is getting is displayed(src/test/resources/FeatureFiles/GoogleSearch.feature:13)\r\n",
+              "duration": 1313084106,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "verify that the title is getting is displayed",
+            "match": {
+              "location": "SDsGoogleSearch.verify_that_the_title_is_getting_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Close Browsers",
+            "match": {
+              "location": "SDsGoogleSearch.close_browsers()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functional"
+          }
+        ]
+      }
+    ],
+    "name": "GUMTREE GOOGLE Search",
+    "description": "",
+    "id": "gumtree-google-search",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FeatureFiles/GoogleSearch.feature",
+    "tags": []
+  }
+]
